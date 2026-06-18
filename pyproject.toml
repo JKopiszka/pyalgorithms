@@ -23,5 +23,5 @@ Homepage = "https://github.com/JKopiszka/pyalgorithms"
 Issues = "https://github.com/JKopiszka/pyalgorithms/issues"
 
 [tool.setuptools.packages.find]
-include = ["my_package"]
+include = ["pyalgorithms"]
 exclude = ["tests*"]

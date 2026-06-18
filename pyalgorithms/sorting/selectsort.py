@@ -4,6 +4,17 @@
 # Jakub Kopiszka (c) 2026
 
 def select_sort(arr: list, desc: bool = False):
+    """
+    Sorts given array using select sort algorithm.
+
+    Args:
+        arr (list): List to be sorted.
+        desc (bool, optional): If True, sorts in descending order. Defaults to False.
+
+    Returns:
+        list: Sorted list.
+    """
+    
     N: int = len(arr)
 
     for i in range(N - 1):

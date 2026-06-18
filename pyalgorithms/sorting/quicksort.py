@@ -5,6 +5,17 @@
 
 
 def quick_sort(arr: list, desc: bool = False):
+    """
+    Sorts given array using quick sort algorithm.
+
+    Args:
+        arr (list): List to be sorted.
+        desc (bool, optional): If True, sorts in descending order. Defaults to False.
+
+    Returns:
+        list: Sorted list.
+    """
+    
     n: int = len(arr)
 
     if n <= 1:
