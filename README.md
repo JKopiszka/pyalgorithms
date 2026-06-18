@@ -1,2 +1,2 @@
-# pyalgorithms
-Python package implementing many algorithms.
+# PyAlgorithms #
+**PyAlgorithms** is a simple Python package containing basic implementations of many algorithms.
