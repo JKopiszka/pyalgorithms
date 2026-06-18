@@ -13,6 +13,10 @@ def max(arr: list) -> int | float:
 
     Returns:
         int | float: The highest found value.
+    
+    Raises:
+        ValueError: If the list is empty.
+        TypeError: If the list contains non-numeric values.
     """
     # Safety-point
     if len(arr) < 1:
