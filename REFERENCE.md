@@ -1,4 +1,4 @@
-# PyAlgorithms reference #
+# PyAlgorithms API REFERENCE #
 ## Search functions ##
 ### *Importing* ###
 ```python
