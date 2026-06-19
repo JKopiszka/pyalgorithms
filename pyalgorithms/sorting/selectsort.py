@@ -15,6 +15,9 @@ def select_sort(arr: list, desc: bool = False):
         list: Sorted list.
     """
     
+    if len(arr) < 1:
+        raise ValueError("List cannot be empty.")
+
     N: int = len(arr)
 
     for i in range(N - 1):

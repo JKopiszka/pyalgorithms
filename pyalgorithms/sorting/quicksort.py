@@ -16,6 +16,9 @@ def quick_sort(arr: list, desc: bool = False):
         list: Sorted list.
     """
     
+    if len(arr) < 1:
+        raise ValueError("List cannot be empty.")
+
     n: int = len(arr)
 
     if n <= 1:
