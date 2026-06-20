@@ -15,10 +15,14 @@ def quick_sort(arr: list, desc: bool = False):
     Returns:
         list: Sorted list.
     """
-    
+
     if len(arr) < 1:
         raise ValueError("List cannot be empty.")
+    
+    return __i_quick_sort(arr, desc)
 
+
+def __i_quick_sort(arr: list, desc: bool):
     n: int = len(arr)
 
     if n <= 1:
@@ -26,8 +30,12 @@ def quick_sort(arr: list, desc: bool = False):
 
     pivot = arr[(n - 1) // 2]
 
-    right = [item for item in arr if (item > pivot and not desc) or (item < pivot and desc)]
-    left = [item for item in arr if (item < pivot and not desc) or (item > pivot and desc)]
+    right = [
+        item for item in arr if (item > pivot and not desc) or (item < pivot and desc)
+    ]
+    left = [
+        item for item in arr if (item < pivot and not desc) or (item > pivot and desc)
+    ]
     mid = [item for item in arr if item == pivot]
 
-    return quick_sort(left, desc) + mid + quick_sort(right, desc)
+    return __i_quick_sort(left, desc) + mid + __i_quick_sort(right, desc)
