@@ -8,6 +8,7 @@ version = "0.0.1"
 authors = [
   { name="Jakub Kopiszka", email="kopiszkajakub20@gmail.com" },
 ]
+keywords = ["python", "library", "cool"]
 description = "Python package implementing many algorithms"
 readme = "README.md"
 requires-python = ">=3"
