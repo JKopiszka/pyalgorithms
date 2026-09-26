@@ -43,3 +43,6 @@ this will import every function as part of pyalgorithms "object".
 
 ## Documentation ##
 - [API REFERENCE](./REFERENCE.md)
+
+## Copyright ##
+Jakub Kopiszka (c) 2026
